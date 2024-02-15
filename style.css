@@ -5,9 +5,59 @@
 }
 
 button{
-    padding: 0;
-    background: none;
-    border-radius: 0;
-    border: none;
+    all: unset;
     cursor: pointer;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 46px;
+    color: #fff;
+}
+
+.s1{
+    display: flex;
+    align-items: flex-end;
+    height: 2vw;
+    margin-right: 20px;
+    justify-content: flex-end;
+}
+.logo{
+    width: auto;
+    height: 7vh;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+}
+.front-page-pic{
+    height: 70vh;
+    width: 100vw;
+    object-fit:cover;
+    object-position: 0 20%; 
+}
+
+.s2{
+    display: flex;
+    flex-direction: column;
+    background-color:#779882;
+    height: 94vh;
+    width: auto;
+    margin-top: 1vh;
+}
+.s2 p{
+    color: #fff;
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 10px;
 }
