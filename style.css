@@ -72,3 +72,44 @@ nav{
 
 /*Section 3*/
 
+.s3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.submission-form{
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #425348;
+    border-radius: 30px;
+    height: 30vh;
+    width: 20vw;
+    padding: 10px;
+}
+
+input[type="text"], input[type="email"]{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+Input[type="submit"]{
+    all: unset;
+    background-color:#779882;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 8vw;
+    margin-top: 10px;
+    
+    
+}
